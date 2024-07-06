@@ -1,0 +1,2 @@
+[default.databases.RustDatabase]
+url = "mysql://root:@localhost/RustDatabase"

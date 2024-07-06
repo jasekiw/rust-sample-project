@@ -1,0 +1,25 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT ScaleNumber FROM current_scale ORDER BY CreatedAt DESC LIMIT 1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "ScaleNumber",
+        "type_info": {
+          "type": "Long",
+          "flags": "",
+          "char_set": 63,
+          "max_size": 11
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      true
+    ]
+  },
+  "hash": "8518385ad4b158382bb1f596be3ec3838bfc3870c2423796d57ea0448c98f645"
+}
